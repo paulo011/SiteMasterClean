@@ -40,7 +40,8 @@
     max-width: 250px;
     height: auto;
 
-    background-color: #0CF6C5;
+    background: linear-gradient(180deg, #0CF6C5 0%, rgba(12, 246, 197, 0) 100%);
+    box-shadow: 3px 5px 8px rgb(116, 116, 116);
 
     box-sizing: border-box;
     border-radius: 10px;
@@ -73,11 +74,28 @@
     height: 100%;
     border: none;
     border-radius: 5px;
-    background-color: #0CF6C5;
+    background-color: #0BC6D4;
+    color: aliceblue;
+
+    text-align: center;
+    text-shadow: #000000;
+
+    cursor: pointer;
+    box-shadow: 3px 5px 8px rgb(116, 116, 116);
+    font-size:max(15px, 1vw);
     
     padding: 1vw;
     
 }
+
+
+
+.botao-entrar-em-contato:hover{
+    background-color: #0B5CD4;
+    transition: background 1s ;
+    
+}
+
 
 .div1{
     width: 100%;
@@ -96,10 +114,6 @@
     font-family: Roboto;
     font-style: normal;
     text-align: center;
-
-
-    
-
     
 }
 
@@ -108,16 +122,13 @@
     width: 100%;
     height: auto;
 
-
 }
 
 .conteudo-em-destaque {
     position:absolute;
     background: none;
 
-    font-size: max(23px, 5vw);
-
-
+    font-size: max(20px, 5vw);
     
 }
 
@@ -133,6 +144,10 @@ h1{
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
+    
+    
+
+    text-align: center;
 }
 
 .div3{
@@ -144,6 +159,8 @@ h1{
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
+
+    text-align: center;
 }
 
 .div4{
@@ -154,9 +171,10 @@ h1{
     flex-wrap: wrap;
     justify-content:space-evenly;
     align-items: center;
+
+
+    text-align: center;
 }
-
-
 
 
 /*zone footer*/
