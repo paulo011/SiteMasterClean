@@ -16,6 +16,8 @@
     height: min(18vw, 90px);
     display: flex;
     justify-content: center;
+
+    background: white;
     
 }
 
@@ -151,9 +153,6 @@ h1{
 
     margin-bottom: 2vw;
 
-    
-
-
 }
 
 .video iframe{
@@ -161,7 +160,7 @@ h1{
     height: min(360px, 60vw); 
     padding: 1vw;
     margin: 1vw;
-    border-radius: 2px;
+    border-radius: 4px;
     
 
     box-shadow: 3px 5px 8px rgb(116, 116, 116);
@@ -173,10 +172,6 @@ h1{
     font-size: min(40px, 4vw);
     padding: 2vw;
     margin: 1vw;
-
-    
-    
-
     
 }
 
@@ -256,14 +251,14 @@ h1{
 
 .instagram img{
     width: 100%;
-    height: max(30px, 5vw);
+    height: max(30px, 4vw);
 
     background: none;
 }
 
 .whatsapp img{
     width: 100%;
-    height: max(30px, 5vw);
+    height: max(30px, 4vw);
 
      background: none;
 }
