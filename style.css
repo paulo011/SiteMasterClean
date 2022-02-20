@@ -65,17 +65,41 @@
     align-items: center;
 
     padding: 1vw;
-    background-color: none;
+    background: none;
     
 }
 
 .textdiv p {
-    background-color: none;
+    background: none;
+}
+
+.textdiv strong{
+    background: none;
+}
+a{
+    background: none;
+}
+
+div{
+    background: none;
+}
+
+div.image{
+    background: none;
+}
+
+p.video-text{
+    background: none;
 }
 
 
-.titulo-do-conteudo{
+.titulo-do-conteudo p{
     margin: 1vw;
+    background: none;
+}
+
+.text-block{
+    background: none;
 }
 
 .botao-entrar-em-contato{
@@ -91,7 +115,7 @@
     text-shadow: #000000;
 
     cursor: pointer;
-    box-shadow: 3px 5px 8px rgb(116, 116, 116);
+    box-shadow: 3px 5px 10px rgb(116, 116, 116);
     font-size:max(15px, 1vw);
     text-shadow: 1px 1px 4px #000000;
     
@@ -123,7 +147,7 @@
     font-style: normal;
     text-align: center;
     
-    box-shadow: 3px 5px 8px rgb(116, 116, 116);
+    box-shadow: 1px 3px 4px rgb(116, 116, 116);
 }
 
 
@@ -167,7 +191,7 @@ h1{
     border-radius: 4px;
     
     background-color: #0BC6D4;
-    box-shadow: 3px 5px 8px rgb(116, 116, 116);
+    box-shadow: 3px 5px 10px rgb(116, 116, 116);
 }
 
 .video-text{
@@ -270,7 +294,6 @@ h1{
 }
 
 .whatsapp p{
-
     background: none;
     margin-left: 10px;
 }
